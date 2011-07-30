@@ -1,9 +1,11 @@
 ActionScript3 Helpers
+=====================
 
-* this repository contains helpers written in Object Oriented ActionScript3
+### this repository contains helpers written in Object Oriented ActionScript3
 
 
-**Console Helper**
+Console Helper
+--------------
 
 This class makes debugging your AS3 application easier. Instead of trace() function you can instantiate this class and use it's log method just like in popular Firefox addon Firebug.
 Features: 
@@ -13,9 +15,11 @@ Features:
 * more coming later
 
 Usage: 
-<pre>
-var console = new Console(true, 2, true);
-</pre>
+
+
+	var console = new Console(true, 2, true);
+
+
 
 * @param boolean track_time Whether to track the time since compiling
 * @param integer minround Number of minutes to wait until rounding to minutes
